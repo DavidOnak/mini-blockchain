@@ -1,2 +1,10 @@
 # mini-blockchain
-A mini version of a blockchain, similar to what is used in decentralized cryptocurrency such as Bitcoin.
+(explain this version of blockchain made)
+
+# What is a Blockchain?
+
+# Blocks
+
+# Linking Blocks Into a Chain by Hashing
+
+# Proof-of-Work
