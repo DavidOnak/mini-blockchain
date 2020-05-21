@@ -21,9 +21,7 @@ If any block in the chain is tampered with, the unique hash for that block gets 
 However, it is possible to modify every block after to change each hash and fix the link. To prevent someone from doing this, a proof-of-work is implemented.
 
 # Proof-of-Work
-A proof-of-work makes it difficult for participants to modify blocks by re-calculating hashes and relies on bulletproof cryptography to verify transactions.
-
-A proof-of-work will normally take the form of a computationally difficult math problem, which means it takes a lot of time even for the computer to solve the problem. 
+A proof-of-work makes it difficult for participants to modify blocks by re-calculating hashes and relies on bulletproof cryptography to verify transactions. It will normally take the form of a computationally difficult math problem, which means it takes a lot of time even for the computer to solve the problem. 
 
 Instead of randomly being chosen to broadcast their unconfirmed block, a special group of participants, also known as miners, now need to solve a problem in order to be eligible to broadcast their block. The problem takes the form of a guessing game that involves the use of hashing. Miners first guess a nonce value, which is then combined with the contents of the block. They repeat this process until the desired hash is generated.
 
